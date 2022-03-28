@@ -4,157 +4,183 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <title>My first review</title>
+  
 </head>
 <body>
-    <header>
-        <h1 class="mylogo">MyLogo</h1>
-        <nav class="menu"><img src="./images/icons/Union.png" alt="menu"></nav>
-     </header>
-    <section class="main">
-        <ul class="info">
-            <li class="myname">I’m Sameh
-                Glad to see you!</li>
-            <li class="intro">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</li>
-            <li class="connect">LET’S CONNECT</li>
-        </ul>
-        <section class="icons">
-            <img src="./images/icons/twitter.png" alt="twitter">
-            <img src="./images/icons/Linkedin.png" alt="linkedin">
-            <img src="./images/icons/M.png" alt="m">
-            <img src="./images/icons/git.png" alt="git">
-            <img src="./images/icons/2.png" alt="2">
-        </section>
-    </section>
+    <h1 id= "title">freeCodeCamp Survey Form</h1>
+    <p id ="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
 
-    <section class="cards1">
-        <img class="snap" src="./images/snapshoots/1.png" alt="snap">
-        <ul class="block">
-        <li class="h9">Tonic</li>
-        <li class="bio">
-        <h3>CANOY</h3>
-        <img class="dot" src="./images/icons/Counter.png" alt="dot">
-        <h5>Back End Dev</h5>
-        <img class="dot" src="./images/icons/Counter.png" alt="dot">
-        <h5>2015</h5>
-        </li>
-        <li><h6>A daily selection of privately personalized reads; no accounts or sign-ups required.</h6></li>
-        <li class="tags">
-        <button type="button" class="html">html</button>
-        <button type="button" class="css">css</button>
-        <button type="button" class="js">javaScript</button>
-        </li>
-        <li><button type="button" class="projects">See Projects</button></li>
-    </ul>
-</section>
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
 
-    <section class="cards2">
-        <img class="snap" src="./images/snapshoots/2.png" alt="snap">
-        <ul class="block">
-        <li class="h9">Multi-Post Stories</li>
-        <li class="bio">
-        <h3>CANOY</h3>
-        <img class="dot" src="./images/icons/Counter.png" alt="dot">
-        <h5>Back End Dev</h5>
-        <img class="dot" src="./images/icons/Counter.png" alt="dot">
-        <h5>2015</h5>
-        </li>
-        <li><h6>A daily selection of privately personalized reads; no accounts or sign-ups required.</h6></li>
-        <li class="tags">
-        <button type="button" class="html">html</button>
-        <button type="button" class="css">css</button>
-        <button type="button" class="js">javaScript</button>
-        </li>
-        <li><button type="button" class="projects">See Projects</button></li>
-    </ul>
-    </section>
+        <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input type="number"
+       name="age" 
+       id="number" 
+       min="10"
+        max="99" 
+        class="form-control" 
+        placeholder="Age"
+        required >
 
-    <section class="cards1">
-        <img class="snap" src="./images/snapshoots/3.png" alt="snap">
-        <ul class="block">
-        <li class="h9">Tonic</li>
-        <li class="bio">
-        <h3>CANOY</h3>
-        <img class="dot" src="./images/icons/Counter.png" alt="dot">
-        <h5>Back End Dev</h5>
-        <img class="dot" src="./images/icons/Counter.png" alt="dot">
-        <h5>2015</h5>
-        </li>
-        <li><h6>A daily selection of privately personalized reads; no accounts or sign-ups required.</h6></li>
-        <li class="tags">
-        <button type="button" class="html">html</button>
-        <button type="button" class="css">css</button>
-        <button type="button" class="js">javaScript</button>
-        </li>
-        <li><button type="button" class="projects">See Projects</button></li>
-    </ul>
-    </section>
+        
+            <p>Which option best describes your current role?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select current role</option>
+              <option value="student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
 
-    <section class="cards2">
-        <img class="snap" src="./images/snapshoots/4.png" alt="snap">
-        <ul class="block">
-        <li class="h9">Multi-Post Stories</li>
-        <li class="bio">
-        <h3>CANOY</h3>
-        <img class="dot" src="./images/icons/Counter.png" alt="dot">
-        <h5>Back End Dev</h5>
-        <img class="dot" src="./images/icons/Counter.png" alt="dot">
-        <h5>2015</h5>
-        </li>
-        <li><h6>A daily selection of privately personalized reads; no accounts or sign-ups required.</h6></li>
-        <li class="tags">
-        <button type="button" class="html">html</button>
-        <button type="button" class="css">css</button>
-        <button type="button" class="js">javaScript</button>
-        </li>
-        <li><button type="button" class="projects">See Projects</button></li>
-    </ul>
-    </section>
+           
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label>
+                  <input
+                    name="user-recommend"
+                    value="definitely"
+                    type="radio"
+                    class="input-radio"
+                    checked
+                  />Definitely</label
+                >
+                <label>
+                  <input
+                    name="user-recommend"
+                    value="maybe"
+                    type="radio"
+                    class="input-radio"
+                  />Maybe</label>
+                 
+                  <p>
+                    What is your favorite feature of freeCodeCamp?
+                  </p>
+                  <select id="most-like" name="mostLike" class="form-control" required>
+                    <option disabled selected value>Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">Open Source</option>
+                  </select>
+                
+                  <p>
+                    What would you like to see improved?
+                    <span class="clue">(Check all that apply)</span>
+                  </p>
+            
+                  <label
+                    ><input
+                      name="prefer"
+                      value="front-end-projects"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Front-end Projects</label
+                  >
+                  <label>
+                    <input
+                      name="prefer"
+                      value="back-end-projects"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Back-end Projects</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="data-visualization"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Data Visualization</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="challenges"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Challenges</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="open-source-community"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Open Source Community</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="gitter-help-rooms"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Gitter help rooms</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="videos"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Videos</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="city-meetups"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />City Meetups</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="wiki"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Wiki</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="forum"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Forum</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="additional-courses"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Additional Courses</label
+                  >
+                  <textarea
+                  id="comments"
+                  class="input-textarea"
+                  name="comment"
+                  placeholder="Enter your comment here..."
+                ></textarea>
 
-    <section class="about">
-
-        <ul class="top">
-            <li class="myself"><h1>About Myself</h1></li>
-            <li class="welcome"><p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p></li>
-            <li class="contact"><h2>LET’S CONNECT</h2></li>
-            <li class="icon">
-            <img src="./images/icons/git.png" alt="git">
-            <img src="./images/icons/Linkedin.png" alt="linkedin">
-            <img src="./images/icons/2.png" alt="2">
-            <img src="./images/icons/twitter.png" alt="twitter">
-            <img src="./images/icons/M.png" alt="m"></li>
-            <li><button type="button" class="resume">Get my resume</button></li>
-        </ul>
-
-        <ul class="skills">
-            <li class="lang">
-                <div class="h7">languages</div>
-                <img src="./images/icons/Union2.png" alt="arr">
-            </li>
-            <li class="jscr">
-                <img class="ic" src="./images/icons/js.png" alt="js">
-                <div class="h8">JavaSctipt</div>
-            </li>
-            <li class="ht">
-                <img class="ic" src="./images/icons/html.png" alt="ht">
-                <div class="h8">HTML</div>
-            </li>
-            <li class="cs">
-                <img class="ic" src="./images/icons/css.png" alt="cs">
-                <div class="h8">CSS</div>
-            </li>
-            <li class="fw">
-                <div class="h7">FrameWorks</div>
-                <img src="./images/icons/Union1.png" alt="fw">
-            </li>
-            <li><img src="./images/icons/Separator.png" alt="sep"></li>
-            <li class="sk">
-                <div class="h7">Skills</div>
-                <img src="./images/icons/Union1.png" alt="ar">
-            </li>
-            <li><img src="./images/icons/Separator.png" alt="sep"></li>
-        </ul>
-    </section>
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                  </button>
+    </form>
 </body>
 </html>
