@@ -44,7 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse Curriculum , code is from my pervious "mobile portofolio" project.
+- Microverse Curriculum , code is my partner ehsan project.
 
 ## 📝 License
 
