@@ -90,7 +90,7 @@ button {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .container {
     max-width: 720px;
   }
